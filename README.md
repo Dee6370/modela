@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Modelarium
 
-## Getting Started
+Modelarium is a website designed to showcase various machine learning and artificial intelligence models. Users can explore models, view their descriptions, use cases, applications, and even find implementations of the code.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Server-side rendering for pages that don't require client interaction.
+- Utilizes the optimized Image API from Next.js for efficient image loading.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [Next.js](https://nextjs.org/) - A React framework for server-side rendering and building static websites.
+- [Prism.js](https://prismjs.com/) - A lightweight syntax highlighter for displaying code.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for building modern designs.
+- [Heroicons](https://heroicons.com/) - A set of free, MIT-licensed high-quality SVG icons.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## How to Use
 
-## Learn More
+1. Clone the repository: `git clone https://github.com/your-username/modelarium.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feel free to contribute by opening issues or creating pull requests. Follow the [contribution guidelines](CONTRIBUTING.md).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](LICENSE).
