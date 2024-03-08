@@ -84,7 +84,7 @@ export default function Home({
               <div className="section1 px-10 border-b border-gray-700">
               
          <h1 className="text-2xl w-full font-semibold ">description</h1>
-         <p className="px-10">{currentModel.description}{currentModel.description}{currentModel.description}{currentModel.description}{currentModel.description}{currentModel.description}{currentModel.description}{currentModel.description}</p>
+         <p className="px-10">{currentModel.description}</p>
          <p className="px-10">created by: {creator.username}</p>
          <Typography
                         color="blue-gray"
